@@ -338,28 +338,32 @@ details {
     width: 20px;
   }
   
-  #linha p {
-    padding: 10px;
-    background-color: #666;
-    color: #ECD6C4;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  
-  #linha[open] summary:after {
-    content: "-";
-    color: #111;
-  }
-
-  #burguer {
-    display: none;
-  }
   @media screen and (max-width: 620px) {
     .cabecalho-menu {
         display: none;
         flex-direction: column;
     }
-    #burguer {
-        display: block;
+
+    .menuH {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        cursor: pointer;
+        z-index: 3;
+    }
+    
+    .bar {
+        width: auto;
+        height: 8px;
+        margin: 4px 0;
+        border-radius: 10px;
+        background-color: #000;
+        transition: 0.4s;
+    }
+  }
+
+  @media screen and (min-width: 621px) {
+    .cabecalho-menu {
+        display: flex;
     }
   }
