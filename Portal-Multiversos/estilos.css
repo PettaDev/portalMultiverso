@@ -364,6 +364,6 @@ details {
 
   @media screen and (min-width: 621px) {
     .cabecalho-menu {
-        display: flex;
+        display: flex !important;
     }
   }
