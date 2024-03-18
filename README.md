@@ -12,4 +12,4 @@ Prepare-se para combinar suas habilidades em HTML, CSS, SEO e acessibilidade par
 
 https://forms.gle/4rbBBFiv1VEeb3Nt7
 
-Com o suporte de @DiogoJP202 para debugar :)
+Com o suporte de @DiogoJP202 para me ajudar com alguns erros :)
