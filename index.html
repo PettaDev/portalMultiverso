@@ -22,7 +22,11 @@
             <a class="cabecalho-menu-item" href="noticia1.html">Notícias</a>
             <a class="cabecalho-menu-item" href="faq.html">FAQ</a>
         </nav>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <div class="menuH">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </header>
 
     <!-- Corpo da página -->
@@ -56,15 +60,43 @@
     </footer>
 
     <script>
-        function clickMenu() {
-            let cabecalhoM = document.querySelector(".cabecalho-menu");
-            console.log (cabecalhoM)
-            if (cabecalhoM.style.display == 'flex'){
-                cabecalhoM.style.display = 'none'
-            } else {
-                cabecalhoM.style.display = 'flex'
-            }
-        }
+        const body = document.querySelector("body");
+        const barras = document.querySelectorAll(".bar"); // Capturando as barras do menu Hambúrger.
+        const telaMenu = document.querySelector("nav"); // Capturando a tela do menu Hambúrger.
+        let menuAtivado = false;
+        console.log(body, barras[0], barras[1], barras[2], telaMenu)
+        document.addEventListener("click", event => {
+                const element = event.target;
+                
+                if(element.classList.contains("bar") || element.classList.contains("menuH")){
+                    let menu = [barras[0], barras[1], barras[2]];
+
+                    if(menuAtivado){ // Usando codição de ímpar ou par no contador.
+                        menu[0].style.transform = "rotate(0deg) translate(0px, 0px)";
+                        menu[1].style.opacity = "1";
+                        menu[2].style.transform = "rotate(0deg) translate(0px, 0px)";
+                        body.classList.remove("overfHidden");
+                        telaMenu.style.display = "none";
+
+                        return menuAtivado = false;
+                    };
+
+                    // Não será acionado o trecho abaixo, caso a condição acima seja verdadeira por conta do "return".
+                    menu[0].style.transform = "rotate(-45deg) translate(-8px, 8px)";
+                    menu[1].style.opacity = "0";
+                    menu[2].style.transform = "rotate(45deg) translate(-8px, -8px)";
+                    body.classList.add("overfHidden");
+                    telaMenu.style.display = "flex";
+
+                    menuAtivado = true;
+                };
+
+                if(element.classList.contains('btn')){
+                    setTimeout(()=>{
+                        let btn = document.querySelector(".btn");
+                    },)
+                }
+            });
     </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
