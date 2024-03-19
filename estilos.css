@@ -304,7 +304,7 @@ footer p {
 }
 
 main {
-    min-height: 450px;
+    min-height: 70vh;
 }
 
 details {
@@ -337,6 +337,20 @@ details {
     text-align: center;
     width: 20px;
   }
+
+  #linha p {
+    padding: 10px;
+    background-color: #666;
+    color: #ECD6C4;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  #linha[open] summary:after {
+    content: "-";
+    color: #111;
+  }
+
   
   @media screen and (max-width: 620px) {
     .cabecalho-menu {
@@ -357,7 +371,7 @@ details {
         height: 8px;
         margin: 4px 0;
         border-radius: 10px;
-        background-color: #000;
+        background-color: #ECD6C4;
         transition: 0.4s;
     }
   }
