@@ -10,6 +10,9 @@ https://forms.gle/4rbBBFiv1VEeb3Nt7
 ajudinha by @DiogoJP202
 #
 Implementações futuras: 
-  Adicionar página para contato - linkar do FAQ
-  Adicionar parte para colocar e-mail para receber as notícias
-  Adicionar mais notícias para ficar completo
+<br>
+Adicionar página para contato - linkar do FAQ
+<br>
+Adicionar parte para colocar e-mail para receber as notícias
+<br>
+Adicionar mais notícias para ficar completo
