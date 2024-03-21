@@ -11,8 +11,8 @@ https://forms.gle/4rbBBFiv1VEeb3Nt7
 #
 *Implementações futuras:*
 <br>
-1. Adicionar página para contato - linkar do FAQ
+1-Adicionar página para contato - linkar do FAQ
 <br>
-2. Adicionar parte para colocar e-mail para receber as notícias
+2-Adicionar parte para colocar e-mail para receber as notícias
 <br>
-3. Adicionar mais notícias para ficar completo
+3-Adicionar mais notícias para ficar completo
