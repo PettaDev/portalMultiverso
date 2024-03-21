@@ -7,12 +7,12 @@ Prepare-se para combinar suas habilidades em HTML, CSS, SEO e acessibilidade par
 À aventura!
 #
 https://forms.gle/4rbBBFiv1VEeb3Nt7
-ajudinha by @DiogoJP202
+*ajudinha by @DiogoJP202*
 #
-Implementações futuras: 
+*Implementações futuras:*
 <br>
-Adicionar página para contato - linkar do FAQ
+1. Adicionar página para contato - linkar do FAQ
 <br>
-Adicionar parte para colocar e-mail para receber as notícias
+2. Adicionar parte para colocar e-mail para receber as notícias
 <br>
-Adicionar mais notícias para ficar completo
+3. Adicionar mais notícias para ficar completo
