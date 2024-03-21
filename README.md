@@ -8,3 +8,8 @@ Prepare-se para combinar suas habilidades em HTML, CSS, SEO e acessibilidade par
 #
 https://forms.gle/4rbBBFiv1VEeb3Nt7
 ajudinha by @DiogoJP202
+#
+Implementações futuras: 
+  Adicionar página para contato - linkar do FAQ
+  Adicionar parte para colocar e-mail para receber as notícias
+  Adicionar mais notícias para ficar completo
